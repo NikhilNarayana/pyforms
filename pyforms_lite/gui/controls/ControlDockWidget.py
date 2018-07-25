@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from pyforms.gui.controls.ControlEmptyWidget import ControlEmptyWidget
+from pyforms_lite.gui.controls.ControlEmptyWidget import ControlEmptyWidget
 
 
 class ControlDockWidget(ControlEmptyWidget):

@@ -3,11 +3,11 @@
 
 import logging
 
-from pyforms.utils.settings_manager import conf
+from pyforms_lite.utils.settings_manager import conf
 
 from AnyQt.QtWidgets import QMdiArea, QMdiSubWindow
 
-from pyforms.gui.controls.ControlBase import ControlBase
+from pyforms_lite.gui.controls.ControlBase import ControlBase
 
 logger = logging.getLogger(__name__)
 

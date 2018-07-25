@@ -10,8 +10,8 @@
 @status: Development
 @lastEditedBy: Carlos Mão de Ferro (carlos.maodeferro@neuro.fchampalimaud.org)
 '''
-import pyforms.utils.tools as tools
-from pyforms.gui.controls.ControlBase import ControlBase
+import pyforms_lite.utils.tools as tools
+from pyforms_lite.gui.controls.ControlBase import ControlBase
 from AnyQt.QtWidgets import QLineEdit
 from AnyQt 			 import uic
 

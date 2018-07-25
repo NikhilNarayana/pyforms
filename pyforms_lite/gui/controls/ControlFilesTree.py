@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 
 
-from pyforms.utils.settings_manager import conf
+from pyforms_lite.utils.settings_manager import conf
 
-from pyforms.gui.controls.ControlBase import ControlBase
+from pyforms_lite.gui.controls.ControlBase import ControlBase
 
 from AnyQt 			 import QtCore
 from AnyQt.QtWidgets import QTreeView, QFileSystemModel

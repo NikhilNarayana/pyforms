@@ -1,13 +1,13 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from pyforms.utils.settings_manager import conf
+from pyforms_lite.utils.settings_manager import conf
 
-from AnyQt 			 import uic, QtCore
+from AnyQt import uic, QtCore
 
 
-import pyforms.utils.tools as tools
-from pyforms.gui.controls.ControlBase import ControlBase
+import pyforms_lite.utils.tools as tools
+from pyforms_lite.gui.controls.ControlBase import ControlBase
 
 
 class ControlCheckBox(ControlBase):

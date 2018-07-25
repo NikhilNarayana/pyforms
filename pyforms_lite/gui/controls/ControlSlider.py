@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import pyforms.utils.tools as tools
+import pyforms_lite.utils.tools as tools
 
 from AnyQt 							  import uic
-from pyforms.gui.controls.ControlBase import ControlBase
+from pyforms_lite.gui.controls.ControlBase import ControlBase
 
 
 class ControlSlider(ControlBase):

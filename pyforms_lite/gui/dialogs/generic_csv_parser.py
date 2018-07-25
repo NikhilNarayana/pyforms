@@ -1,10 +1,10 @@
 import csv
-from pyforms import BaseWidget
-from pyforms.controls import ControlText
-from pyforms.controls import ControlButton
-from pyforms.controls import ControlFile
-from pyforms.controls import ControlList
-from pyforms.controls import ControlNumber
+from pyforms_lite import BaseWidget
+from pyforms_lite.controls import ControlText
+from pyforms_lite.controls import ControlButton
+from pyforms_lite.controls import ControlFile
+from pyforms_lite.controls import ControlList
+from pyforms_lite.controls import ControlNumber
 
 
 class GenericCsvParserDialog(BaseWidget):

@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from pyforms.utils.settings_manager 					  import conf
-from pyforms.gui.controls.ControlText import ControlText
+from pyforms_lite.utils.settings_manager 					  import conf
+from pyforms_lite.gui.controls.ControlText import ControlText
 
-import pyforms.utils.tools as tools
+import pyforms_lite.utils.tools as tools
 
 
 from AnyQt 			 import uic, _api

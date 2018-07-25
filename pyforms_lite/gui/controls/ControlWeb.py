@@ -11,7 +11,7 @@ __status__ = "Development"
 
 from AnyQt.QtWebEngineWidgets 			import QWebEngineView as QWebView
 from AnyQt.QtCore 						import QUrl
-from pyforms.gui.controls.ControlBase 	import ControlBase
+from pyforms_lite.gui.controls.ControlBase 	import ControlBase
 
 
 class ControlWeb(ControlBase, QWebView):

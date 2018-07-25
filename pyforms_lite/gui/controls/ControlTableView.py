@@ -7,14 +7,14 @@
 import logging
 import os
 
-from pyforms.utils.settings_manager import conf
+from pyforms_lite.utils.settings_manager import conf
 
 from AnyQt           import QtCore, uic
 from AnyQt.QtWidgets import QTableView, QAbstractItemView
 from AnyQt.QtGui     import QIcon
 
-from pyforms.gui.basewidget import BaseWidget
-from pyforms.gui.controls.ControlBase import ControlBase
+from pyforms_lite.gui.basewidget import BaseWidget
+from pyforms_lite.gui.controls.ControlBase import ControlBase
 
 logger = logging.getLogger(__name__)
 

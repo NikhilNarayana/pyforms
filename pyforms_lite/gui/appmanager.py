@@ -1,11 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from pyforms.gui.controls.ControlDockWidget import ControlDockWidget
+from pyforms_lite.gui.controls.ControlDockWidget import ControlDockWidget
 from AnyQt.QtWidgets import QMainWindow, QDockWidget, QAction, QApplication, QToolBar
 from AnyQt           import QtCore, _api
 from AnyQt.QtGui     import QIcon
 
-from pyforms.utils.settings_manager import conf
+from pyforms_lite.utils.settings_manager import conf
 import sys, os, platform, logging
 
 logger = logging.getLogger(__name__)
@@ -168,11 +168,11 @@ def execute_test_file(myapp):
 
 
 def start_app(ClassObject, geometry=None, stylesheet=None):
-    from pyforms.utils.settings_manager import conf
+    from pyforms_lite.utils.settings_manager import conf
 
     app = QApplication(sys.argv)
 
-    conf += 'pyforms.gui.settings'
+    conf += 'pyforms_lite.gui.settings'
 
     mainwindow = StandAloneContainer(ClassObject)
 

@@ -1,7 +1,7 @@
 # !/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from pyforms.gui.controls.ControlBase import ControlBase
+from pyforms_lite.gui.controls.ControlBase import ControlBase
 from AnyQt.QtWidgets import QTreeWidget, QTreeWidgetItem, QTreeView, QAbstractItemView, QAction
 from AnyQt.QtGui import QIcon, QKeySequence
 from AnyQt import QtCore

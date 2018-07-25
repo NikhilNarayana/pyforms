@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from pyforms.utils.settings_manager import conf
+from pyforms_lite.utils.settings_manager import conf
 
 from AnyQt 			 import _api
 from AnyQt.QtWidgets import QToolBox
@@ -9,7 +9,7 @@ from AnyQt.QtWidgets import QFrame
 from AnyQt.QtWidgets import QVBoxLayout
 from AnyQt.QtWidgets import QHBoxLayout
 
-from pyforms.gui.controls.ControlBase import ControlBase
+from pyforms_lite.gui.controls.ControlBase import ControlBase
 
 
 class ControlToolBox(ControlBase):

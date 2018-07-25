@@ -3,7 +3,7 @@
 
 import json, AnyQt
 
-from pyforms.utils.settings_manager import conf
+from pyforms_lite.utils.settings_manager import conf
 
 from AnyQt.QtWidgets import QFrame
 from AnyQt.QtWidgets import QVBoxLayout
@@ -18,7 +18,7 @@ from AnyQt.QtWidgets import QFileDialog
 from AnyQt.QtWidgets import QApplication
 from AnyQt           import QtCore, _api
 
-from pyforms.gui.controls.ControlBase import ControlBase
+from pyforms_lite.gui.controls.ControlBase import ControlBase
 
 from AnyQt.QtWidgets import QMessageBox, QInputDialog
 

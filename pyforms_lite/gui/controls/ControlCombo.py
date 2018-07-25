@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 
 
-import pyforms.utils.tools as tools
+import pyforms_lite.utils.tools as tools
 
-from pyforms.utils.settings_manager import conf
+from pyforms_lite.utils.settings_manager import conf
 
 from AnyQt.QtWidgets import QLabel, QWidget, QComboBox, QHBoxLayout, QSizePolicy
 
-from pyforms.gui.controls.ControlBase import ControlBase
+from pyforms_lite.gui.controls.ControlBase import ControlBase
 
 
 class ControlCombo(ControlBase, QWidget):

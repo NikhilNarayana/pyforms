@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import os
-from pyforms.gui.controls.ControlBase import ControlBase
+from pyforms_lite.gui.controls.ControlBase import ControlBase
 from AnyQt 			 import uic
 from AnyQt.QtWidgets import QApplication
 

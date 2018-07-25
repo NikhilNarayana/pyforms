@@ -9,9 +9,9 @@ __maintainer__ = "Ricardo Ribeiro"
 __email__ = "ricardojvr@gmail.com"
 __status__ = "Development"
 
-import pyforms.utils.tools as tools
+import pyforms_lite.utils.tools as tools
 from AnyQt 		import uic, QtGui
-from pyforms.gui.controls.ControlBase import ControlBase
+from pyforms_lite.gui.controls.ControlBase import ControlBase
 
 class ControlTextArea(ControlBase):
 

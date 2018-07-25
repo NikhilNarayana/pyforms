@@ -1,13 +1,13 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from pyforms.utils.settings_manager import conf
+from pyforms_lite.utils.settings_manager import conf
 
 from AnyQt           import QtCore, _api
 from AnyQt.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QSpinBox
 from AnyQt.QtGui     import QFont, QColor, QCursor, QPainter
 
-from pyforms.gui.controls.ControlBase import ControlBase
+from pyforms_lite.gui.controls.ControlBase import ControlBase
 
 
 class GaugeWidgetVertical(QWidget):

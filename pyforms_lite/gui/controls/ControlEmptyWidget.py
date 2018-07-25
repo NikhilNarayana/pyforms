@@ -1,12 +1,12 @@
 #!/usr/bifn/python
 # -*- coding: utf-8 -*-
 
-from pyforms.utils.settings_manager import conf
+from pyforms_lite.utils.settings_manager import conf
 
 from AnyQt 								import _api
 from AnyQt.QtWidgets 				    import QWidget, QVBoxLayout
-from pyforms.gui.controls.ControlBase   import ControlBase
-from pyforms.gui.basewidget 			import BaseWidget
+from pyforms_lite.gui.controls.ControlBase   import ControlBase
+from pyforms_lite.gui.basewidget 			import BaseWidget
 
 
 class ControlEmptyWidget(ControlBase, QWidget):

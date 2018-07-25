@@ -3,12 +3,12 @@
 
 """ pyforms.gui.controls.ControlLabel"""
 
-import pyforms.utils.tools as tools
-from pyforms.utils.settings_manager import conf
+import pyforms_lite.utils.tools as tools
+from pyforms_lite.utils.settings_manager import conf
 
 from AnyQt           import uic
 
-from pyforms.gui.controls.ControlBase import ControlBase
+from pyforms_lite.gui.controls.ControlBase import ControlBase
 
 __author__ = "Carlos Mão de Ferro"
 __copyright__ = ""

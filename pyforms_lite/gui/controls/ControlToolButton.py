@@ -3,14 +3,14 @@
 
 
 
-from pyforms.utils.settings_manager import conf
+from pyforms_lite.utils.settings_manager import conf
 
 from AnyQt.QtCore 	 import Qt
 from AnyQt 			 import uic
 from AnyQt.QtWidgets import QToolButton, QSizePolicy
 from AnyQt.QtGui 	 import QIcon
 
-from pyforms.gui.controls.ControlBase import ControlBase
+from pyforms_lite.gui.controls.ControlBase import ControlBase
 
 
 class ControlToolButton(ControlBase):
