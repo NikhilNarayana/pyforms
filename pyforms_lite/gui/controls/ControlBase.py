@@ -274,7 +274,6 @@ class ControlBase(object):
     @property
     def form(self):
         """
-        Returns the Widget of the control. 
-        This property will be deprecated in a future version.
+        Returns the Widget of the control.
         """
         return self._form

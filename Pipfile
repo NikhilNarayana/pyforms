@@ -4,12 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-anyqt = "*"
 "pyqt5" = "*"
-python-dateutil = "*"
-numpy = "*"
+anyqt = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"
